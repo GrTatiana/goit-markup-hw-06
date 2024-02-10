@@ -54,6 +54,7 @@ color: #2e2f42;
 }
 .sec-title{
 font-size: 56px;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
@@ -90,6 +91,7 @@ color: #434455;
 .sec-title-team{
 font-size: 36px;
 letter-spacing: 0.02em;
+line-height: 1.11;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
@@ -101,6 +103,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+background-color:#ffffff;
 }
 .job-name{
 font-size: 16px;
@@ -108,6 +111,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+background-color:#ffffff;
 }
 .title-portfolio{
 font-size: 36px;
@@ -135,6 +139,7 @@ color: #434455;
 .logo-footer{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
+line-height: 1.17;
 font-size: 18px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -146,3 +151,5 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 }
+.logo-web-ftr{
+    color:  #4d5ae5;}
