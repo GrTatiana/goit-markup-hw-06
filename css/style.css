@@ -154,18 +154,12 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 }
-.footer-paragraph{
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:  #4d5ae5;
-}
 .logo-studio-ftr{
 color: #f4f4fd;
 }
 .footer-paragraph{
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
