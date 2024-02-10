@@ -88,9 +88,7 @@ color: #434455;
 .sec-color-team{
     background: #f4f4fd;  
 }
-.img-size-team{
-    width: 264;
-    height: 260; 
+.team-background{
     background-color:#ffffff;
 }
 .title-team{
@@ -117,10 +115,6 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 background-color:#ffffff;
-}
-.img-size{
-    width: 360;
-    height: 300; 
 }
 .title-portfolio{
 font-size: 36px;
