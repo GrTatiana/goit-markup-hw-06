@@ -291,7 +291,9 @@ margin-bottom: 32px;
 /* --------Portfolio  section style----- */
 /* --------Footer  section style----- */
 .footer-container{
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
   background-color: #2e2f42;
 }
 .logo-footer{
