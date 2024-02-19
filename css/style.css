@@ -59,8 +59,10 @@ background-color: #ffffff;
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
   }  
+  .p-nav{
+    border-bottom: 1px solid #e7e9fc;
+  }
   .page-nav{
     display: flex;
     align-items: center; 
@@ -140,6 +142,7 @@ margin-right: auto;
 min-width: 169px;
 height: 56px;
 border: none; 
+border-radius: 4px;
 padding: 16px 20px;
 font-family: inherit;
 font-weight: 500;
@@ -189,7 +192,6 @@ color: #434455;
 }
 .team-title{
   margin-bottom: 8px;
-
 }
 .team-background{
     background-color:#ffffff;
@@ -288,11 +290,9 @@ margin-bottom: 32px;
 }
 /* --------Portfolio  section style----- */
 /* --------Footer  section style----- */
-.footer-clr{
-    background-color: #2e2f42;
-}
 .footer-container{
   padding: 100px 0;
+  background-color: #2e2f42;
 }
 .logo-footer{
 font-family: "Raleway", sans-serif;
