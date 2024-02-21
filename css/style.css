@@ -76,7 +76,6 @@ background-color: #ffffff;
     gap: 40px;
   }
 .top-logo{
-padding-top: 20px;
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -202,14 +201,9 @@ color: #434455;
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
 }
-.photo-item{
-  margin-bottom: 16px; 
-}
 .card-item{
-    margin-top: 16px;
     margin-bottom: 8px;
 }
-
 .team-list-item {
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
@@ -286,7 +280,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-margin-bottom: 32px;
 }
 /* --------Portfolio  section style----- */
 /* --------Footer  section style----- */
