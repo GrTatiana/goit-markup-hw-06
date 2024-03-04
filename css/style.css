@@ -154,7 +154,7 @@ margin-bottom: 48px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1\ \(1\).jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg); 
   background-size: cover;
   background-color: #303030;
     padding: 188px 0; 
@@ -392,10 +392,10 @@ color: #434455;
   padding: 100px 0;
   background-color: #2e2f42;
 }
-.container-div{
-display: flex;
-align-items: baseline; 
-}
+/* .container-div{ */
+/* display: flex; */
+/* align-items: baseline;  */
+/* } */
 .logo-footer{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -408,6 +408,10 @@ color: #4d5ae5;
 .logo-studio-ftr{
 color: #f4f4fd;
 }
+.soc-list{
+  width: 40px;
+  height: 40px;
+}
 .social-media-title{
 font-weight: 500;
 color: #ffffff;
@@ -419,12 +423,12 @@ letter-spacing: 0.02em;
 }
   .flex-footer{ 
 display: flex;
-align-items: baseline;
-/* padding-right: 127px; */
-justify-content:center;
-flex-wrap: wrap;
+align-items: center;
+padding-right: 127px;
+justify-content:space-between;
+flex-wrap: wrap; 
 margin-right: 120px;
-gap:200px;
+gap:48px; */
 } 
 
 .icon-position-f{
@@ -449,7 +453,6 @@ gap:200px;
   .soc-link-f:focus
   {
     background-color: #31d0aa; 
-
   }
 .footer-paragraph{
   font-weight: 500;
