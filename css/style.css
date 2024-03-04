@@ -389,8 +389,14 @@ color: #434455;
 /* --------Portfolio  section style----- */
 /* --------Footer  section style----- */
 .footer-container{
-  padding: 100px 0;
-  background-color: #2e2f42;
+  display: flex;
+    max-width: 1158px;
+    padding-left: 15px; 
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0; 
+    background-color: #2e2f42;
 }
 /* .container-div{ */
 /* display: flex; */
@@ -423,7 +429,7 @@ letter-spacing: 0.02em;
 }
   .flex-footer{ 
 display: flex;
-align-items: center;
+align-items: baseline;
 padding-right: 127px;
 justify-content:space-between;
 flex-wrap: wrap; 
@@ -443,8 +449,6 @@ gap:48px; */
   justify-content: center;
   gap: 24px;
   align-items: center;
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
   background-color: #4D5AE5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); }
