@@ -289,9 +289,9 @@ text-align: center;
   display: flex;
   gap: 24px;
   justify-content: center; 
-  margin-bottom: 32px;
-  
+  margin-bottom: 32px;  
 }
+
 .soc-list{
   width: 40px; 
   height: 40px; 
@@ -419,8 +419,12 @@ letter-spacing: 0.02em;
 }
   .flex-footer{ 
 display: flex;
+align-items: baseline;
+/* padding-right: 127px; */
+justify-content:center;
+flex-wrap: wrap;
 margin-right: 120px;
-gap: 269px;
+gap:200px;
 } 
 
 .icon-position-f{
