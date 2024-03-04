@@ -390,6 +390,7 @@ color: #434455;
 /* --------Footer  section style----- */
 .footer-container{
   display: flex;
+  align-items: baseline; 
     max-width: 1158px;
     padding-left: 15px; 
     padding-right: 15px;
@@ -431,7 +432,6 @@ margin-bottom: 16px;
 }
   .flex-footer{ 
 display: flex;
-align-items: baseline; 
 padding-left: 132px;
 justify-content:stretch;
 margin-right: 120px;
