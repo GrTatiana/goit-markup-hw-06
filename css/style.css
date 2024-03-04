@@ -419,9 +419,6 @@ color: #f4f4fd;
   width: 40px;
   height: 40px;
 }
-.a-item{
-align-items: baseline; 
-}
 .social-media-title{
 font-weight: 500;
 color: #ffffff;
@@ -430,8 +427,9 @@ line-height: 150%;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 }
-  .flex-footer{ 
+.flex-footer{ 
 display: flex;
+align-items: baseline; 
 padding-left: 132px;
 justify-content:stretch;
 margin-right: 120px;
