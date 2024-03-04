@@ -431,7 +431,7 @@ margin-bottom: 16px;
 }
   .flex-footer{ 
 display: flex;
-
+align-items: baseline; 
 padding-left: 132px;
 justify-content:stretch;
 margin-right: 120px;
