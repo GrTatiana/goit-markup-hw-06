@@ -356,6 +356,101 @@
         </ul>
   </div>
  </div> 
+
+ <div class="backdrop is-open" >
+  <div class="modal">
+    <button class="modal-close-btn" type="button">
+      <svg
+        class="modal-close-btn-icon"
+        width="8"
+        height="8"
+        aria-label="close icon"
+      >
+        <use href="./images/icons.svg#icon-close-icon"></use>
+      </svg>
+    </button>
+    <p class="contact-form-description">
+      Leave your contacts and we will call you back</p>
+       <div class="contact-form">
+      <div class="contact-form-field-wrapper">
+        <label for="user-name" class="contact-form-field-label">Name</label>
+        <div class="contacn-form-input-wrapper">
+          <input
+            type="text"
+            class="contacn-form-input"
+            name="user-name"
+            id="user-name"
+            title="Tetiana"
+            required>
+            <svg class="contact-form-field-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-user"></use>
+            </svg>
+          </div>
+    </div>
+    <div class="contact-form-field-wrapper">
+      <label for="user-phone" class="contact-form-field-label">Phone</label>
+      <div class="contacn-form-input-wrapper">
+        <input
+          type="tel"
+          class="contacn-form-input"
+          name="user-phone"
+          id="user-phone"
+          required>
+          <svg class="contact-form-field-icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-phone-icon"></use>
+          </svg>
+        </div>
+  </div>
+  <div class="contact-form-field-wrapper">
+    <label for="user-email" class="contact-form-field-label">Email</label>
+    <div class="contacn-form-input-wrapper">
+      <input
+        type="email"
+        class="contacn-form-input"
+        name="user-name"
+        id="user-email"
+        required>
+        <svg class="contact-form-field-icon" width="18" height="24">
+          <use href="./images/icons.svg#icon-email-icon"></use>
+        </svg>
+      </div>
+    </div>
+  <div class="contact-form-field-wrapper-ta">
+    <label for="user-comment" class="contact-form-field-label">Comment</label>
+    <textarea
+    class="comment-form-message"
+    name="user-comment"
+    id="user-comment"
+    placeholder="Text input"
+    required
+  ></textarea>
+</div>
+<div class="contact-form-checkbox-wrapper">
+  <input
+    type="checkbox"
+    class="contact-form-privacy-checkbox visually-hidden"
+    id="privacy-policy"
+    name="privacy-policy"
+    value="true"
+    required>
+  <label for="privacy-policy" class="contact-form-checkbox-label">
+    <span class="rew-form-own-checkbox">
+      <svg
+        class="contact-form-own-checkbox-icon"
+        width="10"
+        height="10"
+      >
+        <use href="./images/icons.svg#icon-check"></use>
+      </svg>
+    </span>
+    I accept the terms and conditions of the Privacy Policy
+    <a class="privacy-policy-link" href="">Privacy Policy</a>
+  </label>
+</div>
+<button class="form-submit-btn" type="submit">Send</button>
+</div>
+</div>
+</div>
 </footer>
 </body>
 </html>
