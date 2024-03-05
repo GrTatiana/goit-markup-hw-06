@@ -283,7 +283,8 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 background-color:#ffffff;
-text-align: center; 
+text-align: center;
+ margin-bottom: 8px;  
 }
 .icon-soc-position{
   display: flex;
